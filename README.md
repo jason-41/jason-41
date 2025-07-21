@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @jason-41, a first year college student not majoring in CS.
-- 👀 I’m interested in C++ and Python programming.
+- 👋 Hi, I’m @jason-41.
+- 👀 .
 
 <!---
 jason-41/jason-41 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
