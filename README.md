@@ -14,11 +14,19 @@ A team project for the cource Humanoid Robotics Systems offered in winter semest
 ![PPO](https://img.shields.io/badge/PPO-orange?style=flat)
 ![Pinocchio](https://img.shields.io/badge/Pinocchio-6aa84f?style=flat)
 ![Gazebo](https://img.shields.io/badge/Gazebo-8e7cc3?style=flat)
-![ROS2](https://img.shields.io/badge/ROS2-0A66C2?style=flat)
-![ROS2](https://img.shields.io/badge/Humanoid_Robot-ff69b4?style=flat)
+![ROS2](https://img.shields.io/badge/ROS2-0A66C2?style=flat&logo=ros&logoColor=white)
+![Humanoid Robot](https://img.shields.io/badge/Humanoid_Robot-ff69b4?style=flat)
 
 ### 2. [End-to-End Autonomous Driving Simulation Stack (ROS1 + Unity)](https://github.com/jason-41/Autonomous-Driving-Team-Project-25SS) - End-to-End Autonomous Driving Simulation Stack (ROS1 + Unity)
 Another course project where we built an end-to-end autonomous driving simulation stack on ROS1 + Unity, integrating traffic-light perception, A*-based global planning, trajectory/velocity generation, and PID control in a closed loop.
+
+![ROS1](https://img.shields.io/badge/ROS1-22314E?style=flat&logo=ros&logoColor=white)
+![RViz](https://img.shields.io/badge/RViz-5C6BC0?style=flat)
+![Path%20Planning](https://img.shields.io/badge/Path%20Planning-00897B?style=flat)
+![Trajectory%20Generation](https://img.shields.io/badge/Trajectory%20Generation-6D4C41?style=flat)
+![PID%20Control](https://img.shields.io/badge/PID%20Control-0277BD?style=flat)
+![Computer%20Vision](https://img.shields.io/badge/Computer%20Vision-512DA8?style=flat&logo=opencv&logoColor=white)
+![Unity%20Simulation](https://img.shields.io/badge/Unity%20Simulation-000000?style=flat&logo=unity&logoColor=white)
 
 ## Languages & Tools
 ![Linux](https://img.shields.io/badge/Linux-333333?style=flat&logo=linux&logoColor=white)
