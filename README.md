@@ -8,7 +8,7 @@
 optimal control, optimization, deep learning, reinforcement learning, motion planning, robotics.
 
 ## Projects
-### 1. [Humanoid Robotics System](https://github.com/jason-41/ainex_devops) - Enable an off‑the‑shelf humanoid robot to receive vocal commands, interact with people, perceive, walk and grasp objects.
+### 1. [Humanoid Robotics System](https://github.com/jason-41/ainex_devops) - Enable an off‑the‑shelf humanoid robot to receive vocal commands, interact with people, perceive, walk and grasp objects
 A team project for the cource Humanoid Robotics Systems offered in winter semester of 2025 by Prof. Gordon Cheng of Institute for Cognitive Systems at Technical University of Munich. Not so fancy, but integration was lot of effort.
 
 ![PPO](https://img.shields.io/badge/PPO-orange?style=flat)
@@ -40,6 +40,11 @@ Another course project where we built an end-to-end autonomous driving simulatio
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
+## Personal Playgrounds - Only for fun
+### 1. [exchange-rate-monitor](https://github.com/jason-41/exchange-rate-monitor) - Toy project, personal-use exchange rate monitor mainly for CNY to [EUR, USD, HKD, GBP, JPY] and exchange rates in 2 banks in China
+Used mainly vibe coding. Packed up as one single .exe that can be run on Windows.
+### 2. [Basics of reinforcement learning](https://github.com/jason-41/RL-DRL-learning) - A toy repo of basic RL algorithms
+A toy repo where I stored the basic reinforcement learning algorithms, tuned and tested their performance through a complete deep reinforcement learning pipeline.
 <!---
 jason-41/jason-41 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
