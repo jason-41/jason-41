@@ -1,8 +1,9 @@
 ## Intro
 - I’m Jason. Jia is my Chinese name.
-- Right now I am a master student in mechanical engineering at Technical University of Munich (TUM) in Bavaria, Germany. Before, I received my bachelor's degree in mechanical engineering from Xi'an Jiaotong University (西安交通大学) in Shaanxi, China.
+- Currentlly I am a master student in mechanical engineering at Technical University of Munich (TUM) in Bavaria, Germany. Before, I received my bachelor's degree in mechanical engineering from Xi'an Jiaotong University (西安交通大学) in Shaanxi, China.
 - My interests include robotics control, motion planning, reinforcement learning, deep learning and their application in robotics.
 - Not a pro but still learning.
+- Find my CV [here][updating].
 
 ## Courses/disciplines 
 optimal control, optimization, deep learning, reinforcement learning, motion planning, robotics.
