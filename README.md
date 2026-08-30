@@ -6,9 +6,12 @@
 - I enjoy turning these interests into working systems and continue developing my engineering and research skills.
 - [Connect with me on LinkedIn](https://www.linkedin.com/in/jia-cao41/).
 
+
+<!--
 ## Courses and disciplines
 
 Optimal control, optimization, deep learning, reinforcement learning, motion planning, and robotics.
+-->
 
 ## Projects
 
