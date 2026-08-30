@@ -12,6 +12,7 @@ Optimal control, optimization, deep learning, reinforcement learning, motion pla
 
 ## Projects
 
+<!--
 ### 1. [Humanoid Robotics System](https://github.com/jason-41/ainex_devops) - Voice-commanded humanoid robot interaction and manipulation
 
 A team project for the *Humanoid Robotics Systems* course at TUM. We integrated voice-command interpretation, human interaction, perception, locomotion, grasping, and placement into an off-the-shelf humanoid robot platform.
@@ -56,6 +57,7 @@ A personal Windows utility for monitoring CNY exchange rates against EUR, USD, H
 ### 2. [Fundamentals of reinforcement learning](https://github.com/jason-41/RL-DRL-learning)
 
 A collection of foundational reinforcement-learning implementations and experiments, including algorithm tuning and evaluation within an end-to-end deep-RL workflow.
+-->
 
 <!--
 jason-41/jason-41 is a special repository because its README appears on the GitHub profile.
