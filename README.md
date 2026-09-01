@@ -1,67 +1,90 @@
+<div align="center">
+
+# Hi, I'm Jason (Jia Cao) 👋
+
+### Robotics · Control · Robot Learning
+
+M.Sc. Mechanical Engineering at the Technical University of Munich (TUM)
+
+[LinkedIn](https://www.linkedin.com/in/jia-cao41/) · [Repositories](https://github.com/jason-41?tab=repositories)
+
+</div>
+
 ## About me
 
-- I'm Jason (Jia Cao).
-- I am pursuing an M.Sc. in Mechanical Engineering at the Technical University of Munich (TUM), Germany. I previously earned a B.Eng. in Mechanical Engineering from Xi'an Jiaotong University, China.
-- My interests include robotics, control, motion planning, reinforcement learning, deep learning, and their applications to robotic systems.
-- I enjoy turning these interests into working systems and continue developing my engineering and research skills.
-- [Connect with me on LinkedIn](https://www.linkedin.com/in/jia-cao41/).
+I build robotic systems across perception, planning and control, learning, simulation, and real-robot deployment. My recent work spans 3D visuomotor policy training on a Franka Panda, model- and learning-based quadrotor control, and voice-commanded manipulation on a biped humanoid.
 
+- 🎓 M.Sc. Mechanical Engineering at TUM — focus on robotics, control, and machine learning
+- 🦾 Hands-on experience with Franka Panda and AiNex biped humanoid robots
+- 🚁 Control and robot-learning experience in JAX/MuJoCo quadrotor simulation
+- 🔍 Interested in 3D visuomotor control, imitation learning, and robust long-horizon manipulation
 
-<!--
-## Courses and disciplines
+> Open to a full-time robotics algorithms & control internship starting in late September 2026 (6+ months).
 
-Optimal control, optimization, deep learning, reinforcement learning, motion planning, and robotics.
--->
+## Research focus
 
-## Projects
+### Long-Horizon Manipulation with 3D Diffusion Policy on a Franka Panda
 
-<!--
-### 1. [Humanoid Robotics System](https://github.com/jason-41/ainex_devops) - Voice-commanded humanoid robot interaction and manipulation
+*Semester thesis · May–September 2026*
 
-A team project for the *Humanoid Robotics Systems* course at TUM. We integrated voice-command interpretation, human interaction, perception, locomotion, grasping, and placement into an off-the-shelf humanoid robot platform.
+- Built an end-to-end ROS 1 + DP3 real-robot pipeline: teleoperated data collection, depth point clouds and robot states/actions, dataset conversion and validation, policy training, deployment, inference, and evaluation.
+- Designed an asynchronous perception–inference–control architecture and optimized point-cloud sampling, action dispatch, and execution scheduling for smoother online robot motion.
+- Developed a coffee-cup 6D pose pipeline with Qwen-VL, HQ-SAM, FoundationPose, Cutie, and Kalman filtering, then transformed the estimate into the robot frame for grasp-trajectory adaptation.
+- Extended the coffee-pouring baseline toward rotated-cup, out-of-distribution scenarios and a hybrid long-horizon manipulation framework combining high-level task states with low-level DP3 visuomotor control.
 
-![PPO](https://img.shields.io/badge/PPO-orange?style=flat)
-![Pinocchio](https://img.shields.io/badge/Pinocchio-6aa84f?style=flat)
-![Gazebo](https://img.shields.io/badge/Gazebo-8e7cc3?style=flat)
-![ROS2](https://img.shields.io/badge/ROS2-0A66C2?style=flat&logo=ros&logoColor=white)
-![Humanoid Robot](https://img.shields.io/badge/Humanoid_Robot-ff69b4?style=flat)
+**Stack:** ROS 1 · Python · PyTorch · DP3 · FoundationPose · VLMs · 3D point-cloud perception · Franka Emika Panda
 
-### 2. [End-to-End Autonomous Driving Simulation Stack (ROS1 + Unity)](https://github.com/jason-41/Autonomous-Driving-Team-Project-25SS)
+## Featured projects
 
-A course project implementing an end-to-end autonomous-driving simulation stack with ROS1 and Unity. The closed-loop system integrates traffic-light perception, A*-based global planning, trajectory and velocity generation, and PID control.
+### [Voice-Commanded Pick-and-Place on an AiNex Biped Humanoid](https://github.com/jason-41/ainex_devops)
 
-![ROS1](https://img.shields.io/badge/ROS1-22314E?style=flat&logo=ros&logoColor=white)
-![RViz](https://img.shields.io/badge/RViz-5C6BC0?style=flat)
-![Path%20Planning](https://img.shields.io/badge/Path%20Planning-00897B?style=flat)
-![Trajectory%20Generation](https://img.shields.io/badge/Trajectory%20Generation-6D4C41?style=flat)
-![PID%20Control](https://img.shields.io/badge/PID%20Control-0277BD?style=flat)
-![Computer%20Vision](https://img.shields.io/badge/Computer%20Vision-512DA8?style=flat&logo=opencv&logoColor=white)
-![Unity%20Simulation](https://img.shields.io/badge/Unity%20Simulation-000000?style=flat&logo=unity&logoColor=white)
+A ROS 2 manipulation system combining speech interaction, LLM-based instruction parsing, visual navigation, model-based reaching, and reinforcement-learning grasp control.
 
-## Languages and tools
+- Implemented closed-loop pre-grasp reaching with Pinocchio kinematics, cubic task-space trajectories, Cartesian PD control, and damped least-squares inverse kinematics.
+- Designed a ROS 2 task state machine and custom messages integrating ASR/TTS, LLM parsing, ArUco navigation, biped locomotion, grasping, and release.
+- Built a MuJoCo grasp environment, trained a PPO policy with randomized targets, and deployed it in Gazebo Harmonic for closed-loop sim-to-sim validation.
+- Participated in physical-robot debugging of navigation, turning, grasping, and release.
 
-![Linux](https://img.shields.io/badge/Linux-333333?style=flat&logo=linux&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![AI-assisted Development](https://img.shields.io/badge/AI--assisted_Development-9b59b6?style=flat)
-![Conda](https://img.shields.io/badge/Conda-44A833?style=flat&logo=anaconda&logoColor=white)
-![MuJoCo](https://img.shields.io/badge/MuJoCo-795548?style=flat)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+**Stack:** ROS 2 · Python · Pinocchio · OpenCV · MuJoCo · Gazebo Harmonic · Stable-Baselines3
 
-## Personal projects
+---
 
-### 1. [Exchange-rate monitor](https://github.com/jason-41/exchange-rate-monitor)
+### Crazyflow Quadrotor Tracking — Model- and Learning-Based Control
 
-A personal Windows utility for monitoring CNY exchange rates against EUR, USD, HKD, GBP, and JPY, including rates from two Chinese banks. Packaged as a standalone executable.
+[Course framework](https://github.com/learnsyslab/ARLDM-Advanced-Robot-Learning-And-Decision-Making)
 
-### 2. [Fundamentals of reinforcement learning](https://github.com/jason-41/RL-DRL-learning)
+Implemented and compared PD, LQR/iLQR, linear and nonlinear MPC, data-driven dynamics-residual models, Gaussian process-enhanced MPC, and PPO in a JAX-based quadrotor simulator.
 
-A collection of foundational reinforcement-learning implementations and experiments, including algorithm tuning and evaluation within an end-to-end deep-RL workflow.
--->
+- Formulated optimal-control problems with CasADi/acados and learned dynamics residuals with sparse variational Gaussian Processes.
+- Reduced mean figure-eight position-tracking error from 8.86 cm to 7.23 cm with GP-enhanced MPC versus nominal MPC in the matched evaluation.
+- Implemented batched rollouts, generalized advantage estimation, and PPO clipped updates; trained a random-trajectory policy with a 0.9 s preview across 1,024 parallel environments.
 
-<!--
-jason-41/jason-41 is a special repository because its README appears on the GitHub profile.
--->
+**Stack:** Python · JAX · Crazyflow/MuJoCo MJX · Gymnasium · CasADi · acados · GPyTorch · PyTorch · Docker
+
+## More public work
+
+- 🚗 [Autonomous Driving Team Project](https://github.com/jason-41/Autonomous-Driving-Team-Project-25SS) — ROS 1 + Unity stack with A* planning, trajectory generation, and PID control; I implemented the trajectory generator and controller.
+- 💱 [Exchange-rate Monitor](https://github.com/jason-41/exchange-rate-monitor) — a packaged Windows utility for monitoring CNY exchange rates against major currencies.
+
+## Engineering toolbox
+
+| Area | Tools and methods |
+| --- | --- |
+| Programming & engineering | Python · C++ · Linux · Git · Docker · NumPy/SciPy · MATLAB/Simulink |
+| Robotics systems | ROS 1/2 · TF · URDF · RViz · Pinocchio · OpenCV |
+| Simulation | MuJoCo/MJX · Gazebo Harmonic · Gymnasium |
+| Planning, control & optimization | Kinematics/dynamics · trajectory generation · motion planning · impedance control · PD · LQR/iLQR · MPC · GP-enhanced MPC · CasADi · acados |
+| Robot learning | PyTorch · JAX · GPyTorch · imitation learning · reinforcement learning · 3D Diffusion Policy |
+| Perception | RGB-D and point clouds · segmentation · 6D pose estimation and tracking · robot-frame transformations |
+
+I also follow current work on ACT, RT-2, the π series, world models, and world action models while keeping my hands-on focus on DP3 training, deployment, and evaluation.
+
+## Education & languages
+
+- **Technical University of Munich** — M.Sc. Mechanical Engineering, expected August 2027
+- **Xi'an Jiaotong University** — B.Eng. Mechanical Engineering, 2024
+- **Languages:** Chinese (native) · English (IELTS 7.5) · Cantonese (conversational)
+
+## Let's connect
+
+I'm interested in robotics algorithms, control, robot learning, and real-world manipulation. Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/jia-cao41/).
